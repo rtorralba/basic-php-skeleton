@@ -3,8 +3,14 @@
   "type": "template",
   "description": "A project template to make basic project for mob programming",
   "keywords": ["template"],
+  "license": "MIT",
   "require": {
-    "php": ">=7.3.0"
+    "php": ">=7.4.29"
+  },
+  "config": {
+    "platform": {
+      "php": "^7.4.29"
+    }
   },
   "require-dev": {
     "phpunit/phpunit": "^9.5"
